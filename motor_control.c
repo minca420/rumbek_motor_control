@@ -11,27 +11,27 @@
 #define PIN_M2A 2 // GPIO pin
 #define PIN_M2B 3 // GPIO pin
 
-void wheel_forward_left() {
+void wheel_forward_right() {
 	digitalWrite(PIN_M1A, HIGH);
 	digitalWrite(PIN_M1B, LOW);
 }
-void wheel_backward_left() {
+void wheel_backward_right() {
 	digitalWrite(PIN_M1A, LOW);
 	digitalWrite(PIN_M1B, HIGH);
 }
-void wheel_forward_right() {
+void wheel_forward_left() {
 	digitalWrite(PIN_M2A, HIGH);
 	digitalWrite(PIN_M2B, LOW);
 }
-void wheel_backward_right() {
+void wheel_backward_left() {
 	digitalWrite(PIN_M2A, LOW);
 	digitalWrite(PIN_M2B, HIGH);
 }
-void wheel_stop_left() {
+void wheel_stop_right() {
 	digitalWrite(PIN_M1A, LOW);
 	digitalWrite(PIN_M1B, LOW);
 }
-void wheel_stop_right() {
+void wheel_stop_left() {
 	digitalWrite(PIN_M2A, LOW);
 	digitalWrite(PIN_M2B, LOW);
 }
