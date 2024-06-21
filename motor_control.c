@@ -1,3 +1,4 @@
+// Program do sterowania silnikami za pomocą pada PS2
 #include <wiringPi.h>
 #include <stdio.h>
 #include <stdlib.h>
